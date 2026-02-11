@@ -1,4 +1,9 @@
 🚀 How to Run the Neuro-Adaptive Speech Therapy Project
+
+For VS code :
+
+open terminal -> 'git clone "repo link"'
+
 ✅ 1️⃣ What You Need
 
 Before starting, make sure you have:
