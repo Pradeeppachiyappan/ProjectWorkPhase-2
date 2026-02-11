@@ -1,0 +1,87 @@
+🚀 How to Run the Neuro-Adaptive Speech Therapy Project
+✅ 1️⃣ What You Need
+
+Before starting, make sure you have:
+
+Node.js (v18 or higher)
+
+npm (comes with Node.js)
+
+To check:
+
+node -v
+npm -v
+
+🛠 2️⃣ Install Project Dependencies
+
+Open Terminal
+
+Go to the project folder:
+
+```cd Phase2-neuro```
+
+
+Install required packages:
+
+```npm install```
+
+
+This installs everything needed to run the app.
+
+▶️ 3️⃣ Run the Project (Development Mode)
+
+Start the development server:
+
+```npm run dev```
+
+
+After running, you’ll see something like:
+
+Local: http://localhost:5173
+
+
+Open that link in your browser.
+
+✅ The project is now running!
+
+🏗 4️⃣ Build for Production (Optional)
+
+If you want to create a production-ready version:
+
+```npm run build```
+
+
+This creates a dist folder.
+
+To preview it:
+
+```npm run preview``` 
+
+🔧 Common Problems & Quick Fixes
+❌ "vite not found"
+
+Run:
+
+```npm install``` 
+
+❌ Port already in use
+
+Vite will automatically switch to another port (like 5174).
+Check the terminal for the correct URL.
+
+❌ Module not found error
+
+Delete and reinstall dependencies:
+
+rm -rf node_modules package-lock.json
+npm install
+
+🎯 That’s It!
+
+Just remember:
+
+```npm install``` 
+```npm run dev``` 
+
+
+And open the browser link shown in the terminal.
